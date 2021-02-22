@@ -1,0 +1,103 @@
+.card_container {
+display:flex;
+margin-bottom: 30px;
+margin-left: 30px;
+}
+
+.card_one {
+      background-color:white;
+      height: 165px;
+      width: 310px;
+      border-radius: 20px;
+      
+}
+
+.card_two {
+      background-color: white;
+      width: 210px;
+      height: 165px;
+      border-radius: 20px;
+      margin-left: 30px;
+}
+
+.card_img {
+      width: 90px;
+      height: 90px;
+      margin:10px 30px
+}
+
+.card_top {
+      display: flex;
+     
+      justify-content: space-between;
+}
+
+.card_button {
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.card_button button {
+      padding: 8px;
+      border-radius: 6px;
+      width: 90px;
+      border: none;
+      outline: none;
+      background-color: #008DFF;
+      color: white;
+}
+.card_button p{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 15px;
+      align-items: center;
+}
+
+.border_span {
+      border:2px solid #008DFF;
+}
+
+.card_small_top {
+      display: flex;
+     
+      justify-content: space-between;
+}
+
+.card_button2 {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+}
+.card_button2 button {
+      padding: 8px;
+      border-radius: 6px;
+      width: 90px;
+      border: none;
+      outline: none;
+      background-color: #008DFF;
+      color: white;
+}
+.card_button2 p{
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 15px;
+      align-items: center;
+}
+
+.card_img2 {
+      width: 90px;
+      height: 90px;
+      margin-bottom: 20px;
+      border-top-right-radius: 20px;
+}
+.card_description {
+      display: flex;
+      padding: 10px;
+}
+.card_description  a {
+  font-weight: 600;
+}

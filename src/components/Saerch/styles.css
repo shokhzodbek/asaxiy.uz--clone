@@ -1,0 +1,45 @@
+.search1 {
+      display: flex;
+      align-items: center;
+      background-color: teal;
+      height: 40px;
+      border-radius: 8px;
+      justify-content: center;
+      flex: 1;
+      background-color: #008DFF;
+      margin: 0 50px;
+      
+}
+.search_input1{
+   border: none;
+   outline: none;
+   padding: 10px;
+   border-radius: 8px;
+   flex: 1;
+   color: lightgrey;
+   font-size: 14px;
+   margin-left: 2px;
+
+
+}
+.search_icon1 {
+     display: flex;
+     align-items: center;
+     margin-right: 10px;
+     margin-left: 8px;
+
+}
+
+.search_button1 {
+      padding: 6px;
+      border: none;
+      outline: none;
+      background-color: #008DFF;
+      font-size: 18px;
+      color:white;
+      cursor: pointer;
+}
+
+.search_icon1 .MuiSvgIcon-root {
+      color: white !important;
+}

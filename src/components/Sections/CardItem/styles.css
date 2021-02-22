@@ -1,0 +1,73 @@
+.carditem {
+      height: 470px;
+      width: 260px;
+      background-color: white;
+      box-shadow: 2px 2px 12px rgba(0,0,0,.2);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 10px;
+      margin-bottom: 30px;
+}
+
+.carditem span {
+      position: absolute;
+      top: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      background-color:#ff9900;
+      padding: 3px;
+      border-radius: 5px;
+      color: white;
+}
+
+.carditem_img {
+      width: 164px;
+      height: 164px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.carditem_button {
+      padding: 8px;
+      border-radius: 6px;
+      width: fit-content;
+      border: none;
+      outline: none;
+      background-color: #008DFF;
+      color: white;
+}
+
+.carditem_title {
+      height: 60px;
+}
+
+
+.carditem_title h3 {
+      font-weight: 600;
+      margin-top: 5px;
+}
+
+.cartitem_shoppingcart {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      flex: 1;
+
+}
+
+.cartitem_shoppingcart a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: lightgrey;
+}
+.cartitem_shoppingcart a:hover {
+      color: lightsalmon;
+}
+.cartitem_shoppingcart .MuiSvgIcon-root {
+      font-size: 14px;
+      color: lightgrey;
+}

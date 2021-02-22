@@ -1,0 +1,19 @@
+.sliderlogo_container {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1360px;
+      height: 125px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+
+}
+
+   
+
+
+.sliderlogo {
+      width: 1200px;
+
+}

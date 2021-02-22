@@ -1,0 +1,16 @@
+.carousel_container {
+      
+
+}
+.carousel_image {
+      width: fit-content;
+      height: fit-content;
+      border-radius: 30px;
+}
+
+.slider_again {
+      width: 760px;
+      background-color: tomato;
+      height: 360px;
+      background-color: transparent;
+}

@@ -1,0 +1,24 @@
+.option {
+      border-radius: 10px;
+      width: 120px;
+      border: 1px solid lightgrey;
+      color:lightgrey;
+      display: flex;
+      text-align: center;
+}
+
+.option:hover {
+      border:1px solid #000;
+      color: #000;
+      transition: all 0.5s;
+}
+.option_value {
+      font-weight: 600;
+      border-radius: 10px;
+
+}
+
+.option_value:hover {
+      background-color: lightgrey !important;
+
+}

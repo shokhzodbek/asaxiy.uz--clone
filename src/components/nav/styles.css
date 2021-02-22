@@ -1,0 +1,95 @@
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+     
+     
+}
+
+
+.navbar_tog,.MuiSvgIcon-root {
+      color: #008DFF;
+      
+}
+
+.navbar_tog p:hover {
+      color: #008DFF;
+}
+
+.navbar_links {
+      padding:0 50px;
+      flex: 1;
+}
+
+.navbar_links ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+
+
+}
+
+
+.navbar_links ul li {
+      font-weight: 700 ;
+      list-style: none;
+     
+      
+}
+
+.navbar_links ul li a {
+      text-decoration: none;
+      color: grey;
+}
+
+.navbar_links ul li a:hover {
+      color: #008DFF;
+}
+.nav_button {
+      border: none;
+      background-color: white;
+      outline: none;
+      padding: 0;
+}
+.nav_menu_items1 {
+      width: 100%;
+      height:fit-content;
+      background-color: white;
+      position: absolute;
+      display: flex;
+      flex: 1;
+      z-index: 999;
+}
+
+.checked {
+ display: none;
+}
+.nav_sidebar1 {
+      padding: 20px 0;
+      background-color:whitesmoke;
+      flex: 0.2;
+      z-index: ;
+}
+.sidebarItems {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      
+      cursor: pointer;
+}
+.sidebarItems >.MuiSvgIcon-root {
+      font-size: 18px !important;
+      color: rgb(37, 35, 35);
+}
+
+.sidebarItems h3 {
+      font-size: 13px;
+      font-weight: 600;
+      
+}
+.sidebarItems:hover {
+      background-color: white;
+      
+}

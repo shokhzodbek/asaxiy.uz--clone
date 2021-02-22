@@ -1,0 +1,25 @@
+.phone {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+}
+.phone .MuiSvgIcon-root {
+      font-size: 14px !important;
+      color: lightgrey;
+      margin-right: 4px;
+}
+
+.phone span {
+      color: lightgrey;
+      font-size: 14px;
+      font-weight: 700;
+}
+
+.phone:hover {
+      color: #000;
+}
+
+span:hover {
+      color: #000;
+}

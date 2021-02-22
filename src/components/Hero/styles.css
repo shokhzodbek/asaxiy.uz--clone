@@ -1,0 +1,12 @@
+.hero {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: auto;
+      min-width: 1400px;
+     
+      padding-top: 30px;
+      
+      
+}
+

@@ -1,0 +1,133 @@
+.foooter {
+      display: flex;
+      height: 500px;
+      background-color: #008DFF;
+    
+}
+
+.foooter_container {
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+}
+
+.foooter_serves {
+      height: 140px;
+      background-color: white;
+      border-radius: 20px;
+      margin-top: 42px;
+}
+
+.serves_one {
+      width: 20%;
+      display: flex;
+      align-items: center;
+     
+      cursor: pointer;
+
+}
+
+.serves_one h5 {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 5px;
+
+
+}
+.serves_one p {
+      color: grey;
+      line-height: 1.5;
+      font-size: 14px;
+}
+.serves_title {
+      margin-left: 20px;
+}
+
+.foooter_serves {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+
+.foooter_contact {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 80px;
+      margin-top: 40px;
+
+      
+}
+
+.contact_one {
+     
+      width: 30%;
+}
+
+.contact_one h3 {
+      color: white;
+      margin-bottom: 30px;
+
+}
+
+.contact_one p {
+      color: white;
+      padding-bottom: 15px;
+      font-size: 14px;
+      cursor: pointer;
+}
+.contact_one p:hover {
+      padding-left: 10px;
+      transition: all ease 0.5s;
+      
+
+}
+
+.contact_one .MuiSvgIcon-root {
+      color: white;
+      cursor: pointer;
+}
+.foooter_footer {
+      display: flex;
+      justify-content: center;
+      height: 50px;
+}
+
+.foooter_footer p {
+      font-weight: 600;
+      color: white;
+}
+.foooter_payment {
+      display: flex;
+      align-items: center;
+    
+}
+
+hr {
+      border: none;
+    
+      background: #F4F7FD;
+      height: 1px;
+}
+
+
+
+.foooter_social {
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+}
+
+.foooter_social .MuiSvgIcon-root{
+      color: white;
+      margin-left: 10px;
+      cursor: pointer;
+}
+
+.foooter_payment img{
+   
+      margin-left: 10px;
+      cursor: pointer;
+}
